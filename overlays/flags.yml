@@ -22,7 +22,7 @@ templates:
     overlay:
       name: <<overlay_name>>
       #file: /config/overlays/custom/flag/round/<<overlay>>.png
-      url: https://raw.githubusercontent.com/pedrofmp/kometa/main/images/flag/round/<<overlay>>.png
+      url: https://raw.githubusercontent.com/pedrofmp/kometa/main/images/flags/round/<<overlay>>.png
       group: myCollections
       weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
