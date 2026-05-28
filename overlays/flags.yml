@@ -1,0 +1,486 @@
+templates:
+  myCollection:
+    optional:
+      - overlay_level
+      - use_<<slug>>
+    default:
+      overlay: <<overlay_name>>
+      horizontal_offset: 0
+      horizontal_align: left
+      vertical_offset: 0
+      vertical_align: bottom
+      back_height: 90
+      back_width: 120
+      back_radius: 0
+      back_color: "#00000099"
+      #back_color: "#000000"
+      back_padding: 15
+
+    collection_level: <<overlay_level>>
+    allowed_library_types: <<use_<<slug>>>>
+    ignore_blank_results: true
+    overlay:
+      name: <<overlay_name>>
+      #file: /config/overlays/custom/flag/round/<<overlay>>.png
+      url: https://raw.githubusercontent.com/pedrofmp/kometa/main/images/flag/round/<<overlay>>.png
+      group: myCollections
+      weight: <<weight>>
+      horizontal_offset: <<horizontal_offset>>
+      horizontal_align: <<horizontal_align>>
+      vertical_offset: <<vertical_offset>>
+      vertical_align: <<vertical_align>>
+      back_height: <<back_height>>
+      back_width: <<back_width>>
+      back_radius: <<back_radius>>
+      back_color: <<back_color>>
+      back_padding: <<back_padding>>
+
+overlays:
+  ar:
+    template:
+      - name: myCollection
+        weight: 95
+        slug: countries
+    plex_search:
+      any:
+        country: "Argentina"
+  br:
+    template:
+      - name: myCollection
+        weight: 85
+        slug: countries
+    plex_search:
+      any:
+        country: "Brazil"
+        title: Guerras do Brasil.doc
+  is:
+    template:
+      - name: myCollection
+        weight: 12
+        slug: countries
+    plex_search:
+      any:
+        country: "Iceland"
+  es:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Spain"
+  il:
+    template:
+      - name: myCollection
+        weight: 12
+        slug: countries
+    plex_search:
+      any:
+        country: "Israel"
+  ua:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "Ukraine"
+
+  fr:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "France"
+
+  it:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Italy"
+
+  dk:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Denmark"
+
+  kr:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Republic of Korea"
+
+  tr:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Turkey"
+
+  nl:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Netherlands"
+
+  za:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "South Africa"
+
+  nz:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "New Zealand"
+
+  pl:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Poland"
+
+  no:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Norway"
+
+  lu:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Luxembourg"
+
+  ie:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Ireland"
+
+  at:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Austria"
+
+  fi:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Finland"
+
+  mx:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Mexico"
+
+  pt:
+    template:
+      - name: myCollection
+        weight: 86
+        slug: countries
+    plex_search:
+      any:
+        country: "Portugal"
+
+  ro:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Romania"
+
+  ru:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Russian federation"
+
+  se:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Sweden"
+
+  gb:
+    template:
+      - name: myCollection
+        weight: 80
+        slug: countries
+    plex_search:
+      any:
+        country: "United Kingdom"
+
+  de:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Germany"
+
+  au:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Australia"
+
+  ca:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Canada"
+
+  cl:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Chile"
+
+  cn:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "China"
+  cz:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Czech Republic"
+
+  hu:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Hungary"
+
+  us:
+    template:
+      - name: myCollection
+        weight: 90
+        slug: countries
+    plex_search:
+      any:
+        country: United States of America
+        title:
+          - outmatched
+          - remastered
+          - Mad Dogs (US)
+
+  in:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "India"
+
+  az:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Azerbaijan"
+
+  ph:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Philippines"
+
+  hk:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Hong Kong"
+
+  rs:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "Serbia"
+
+  sg:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Singapore"
+
+  jp:
+    template:
+      - name: myCollection
+        weight: 10
+        slug: countries
+    plex_search:
+      any:
+        country: "Japan"
+
+  by:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "Belarus"
+
+  gr:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "Greece"
+
+  eg:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "Egypt"
+
+  ae:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "United Arab Emirates"
+
+  be:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "Belgium"
+
+  co:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "Colombia"
+
+  qa:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "Qatar"
+
+  th:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "Thailand"
+
+  lb:
+    template:
+      - name: myCollection
+        weight: 11
+        slug: countries
+    plex_search:
+      any:
+        country: "Lebanon"
